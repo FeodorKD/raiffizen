@@ -23,7 +23,7 @@ export const App = () => {
 
 	return (
 		<>
-			<AppTable data={sortedUsers} />
+			<AppTable users={sortedUsers} />
 			<Input
 				placeholder='Поиск по нику'
 				value={searchString}
